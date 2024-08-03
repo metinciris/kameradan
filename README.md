@@ -6,6 +6,10 @@
 # kameradan
 Basılı raporu kameraya göstererek numarasını bulup hafızaya alma. Patoloji için öncelikle.
 
+Window 10 ve üzeri için. Python ve tesseract indirip kurun. 
+Python ilk kurulumda kutu seçenekleri aktif olsun. tesseract kurduktan sonra Path dizinine ekleyin.
+Diğer kodlar Python içinde ve her şey ücretsiz.
+
 ## Screenshot
 
 ![Camera OCR Screenshot](https://github.com/metinciris/kameradan/blob/main/okuma.jpeg)
