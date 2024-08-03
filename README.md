@@ -1,11 +1,14 @@
+
+
+
+### README.md
+
 # kameradan
 Basılı raporu kameraya göstererek numarasını bulup hafızaya alma. Patoloji için öncelikle.
 
-![Screenshot_2]([https://github.com/username/test/assets/108919293/d8206e8b-5c62-49f9-94e4-19b9d9d5c6e6](https://github.com/metinciris/kameradan/blob/main/okuma.jpeg))
+## Screenshot
 
-![alt text]([[https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/metinciris/kameradan/blob/main/okuma.jpeg)](https://github.com/metinciris/kameradan/blob/main/okuma.jpeg)?raw=true)
-
-### README.md
+![Camera OCR Screenshot](https://github.com/metinciris/kameradan/blob/main/okuma.jpeg)
 
 ```markdown
 # Camera-Based OCR for Report Number Detection
