@@ -48,7 +48,7 @@ This project is a Python application that uses OpenCV and Tesseract OCR to detec
 
 1. **Run the application:**
    ```bash
-   python kamera.py
+   python kamera.pyw
    ```
 
 2. **Select the camera:**
@@ -69,10 +69,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
 
-### Ek Notlar
-
-- **GitHub Linkleri:** `git clone` ve GitHub adresinizin yerine kendi depo bağlantınızı koymayı unutmayın.
-- **LICENSE:** Eğer MIT lisansını kullanıyorsanız, LICENSE dosyasını eklemeyi unutmayın.
-- **Dizin Yapısı:** README dosyanızın projenizin ana dizininde bulunduğundan emin olun.
-
-Bu README dosyası, projenizin genel bir açıklamasını, kurulum adımlarını ve kullanım kılavuzunu içerir. Daha fazla bilgi eklemek isterseniz, özgürce güncelleyebilirsiniz!
