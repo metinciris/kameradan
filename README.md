@@ -12,7 +12,7 @@ Diğer kodlar Python içinde ve her şey ücretsiz.
 
 ## Screenshot
 
-![Camera OCR Screenshot]([https://github.com/metinciris/kameradan/blob/main/okuma.jpeg](https://raw.githubusercontent.com/metinciris/slaytlar/main/bcc.jpg))
+![screenshot](https://raw.githubusercontent.com/metinciris/kameradan/main/okuma.jpeg)
 
 ```markdown
 # Camera-Based OCR for Report Number Detection
