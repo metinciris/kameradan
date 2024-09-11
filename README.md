@@ -69,6 +69,7 @@ This project is a Python application that uses OpenCV and Tesseract OCR to detec
 
 4. **Pause/Resume:**
    - Use the "Devam" button to pause the detection and "Durdur" to resume.
+   - Update: In this code, the mp3 file will be played immediately after the message "Report number was copied to clipboard." appears.
 
 ## Contributing
 
