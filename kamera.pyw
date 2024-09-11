@@ -3,6 +3,7 @@ import pytesseract
 import os
 import re
 import pyperclip
+import pygame  # pygame'i ekledik
 from tkinter import *
 from tkinter import ttk
 from PIL import Image, ImageTk, ImageDraw, ImageFont
@@ -10,6 +11,9 @@ from PIL import Image, ImageTk, ImageDraw, ImageFont
 # Tesseract konumunu ve tessdata yolunu belirtin
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 os.environ['TESSDATA_PREFIX'] = r'C:\Program Files\Tesseract-OCR\tessdata'
+
+# Pygame ile ses çalma işlevini başlat
+pygame.mixer.init()
 
 # Global değişkenler
 cap = None
@@ -54,6 +58,11 @@ def update_frame():
                 pyperclip.copy(report_number)  # Metni panoya kopyala
                 found_text = report_number
                 print("Rapor numarası panoya kopyalandı.")
+                
+                # mp3 dosyasını çal
+                pygame.mixer.music.load(r'C:\pyton\childok.mp3')  # MP3 dosyasını yükle
+                pygame.mixer.music.play()  # Ses dosyasını oynat
+                
                 color = (0, 255, 0)  # Yeşil
                 draw.text((10, 10), report_number, font=font, fill=color)
                 paused = True
